@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #272a31;
+}
+
+/* header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    z-index: 9999;
+} */
+
+/* header {
+    padding: 4.2667% 6.4% 0 6.4%;
+    background-color: #fff;
+} */
+
+.menuBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-container {
+    background-color: #272a31;
+}
+
+.programContainer {
+    margin: 1vw;
+    display: flex;
+    gap: 3vw;
+    background-color:rgba(242, 242, 247, 0.5);    
+}
